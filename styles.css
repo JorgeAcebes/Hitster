@@ -48,10 +48,22 @@ h1 {
     color: #777;
 }
 
+.mystery-container {
+    margin-top: 40px;
+}
+
 .mystery-card {
-    cursor: pointer;
+    width: 150px;
+    height: 200px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eee;
     font-size: 24px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Estilo para el reproductor de YouTube */
