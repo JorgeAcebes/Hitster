@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Hitster</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>JORGE HITSTER</h1>
+    <div class="card-container">
+        <!-- Carta inicial desvelada -->
+        <div class="card">
+            <div class="title">Nombre: Song Title 1</div>
+            <div class="year">Año: 2003</div>
+            <div class="artist">Artista: Artist 1</div>
+        </div>
+        <!-- Carta misteriosa -->
+        <div class="card mystery-card" onclick="playMysterySong()">
+            <span>¿?</span>
+        </div>
+    </div>
+
+    <!-- Reproductor de YouTube -->
+    <div id="player"></div>
+
+    <!-- Cargar la API de YouTube -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
