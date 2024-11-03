@@ -1,13 +1,13 @@
 // Declaramos el reproductor como una variable global
 let player;
-const correctYear = 2005; // Cambia esto al año correcto de la canción
+const correctYear = 2005; // Cambia este valor al año correcto de la canción
 
 // Función que se llama automáticamente cuando se carga la API de YouTube
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-        height: '360', // Altura del reproductor
-        width: '640',  // Ancho del reproductor
-        videoId: '',   // ID del video vacío al inicio
+        height: '360',
+        width: '640',
+        videoId: '', // ID del video vacío al inicio
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
